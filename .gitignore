@@ -1,0 +1,8 @@
+# build directories for tools
+build
+build-*
+
+# object files
+*.o
+*.bin
+*.iso
