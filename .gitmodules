@@ -1,0 +1,6 @@
+[submodule "tools/binutils-2.28.0"]
+	path = tools/binutils-2.28.0
+	url = git://sourceware.org/git/binutils-gdb.git
+[submodule "tools/gcc-6.3.0"]
+	path = tools/gcc-6.3.0
+	url = https://github.com/gcc-mirror/gcc.git
