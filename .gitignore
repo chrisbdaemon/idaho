@@ -6,3 +6,4 @@ build-*
 *.o
 *.bin
 *.iso
+*.swp
