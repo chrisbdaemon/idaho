@@ -4,3 +4,6 @@
 [submodule "tools/gcc-6.3.0"]
 	path = tools/gcc-6.3.0
 	url = https://github.com/gcc-mirror/gcc.git
+[submodule "meaty-skeleton"]
+	path = meaty-skeleton
+	url = https://gitlab.com/sortie/meaty-skeleton.git
