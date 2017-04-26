@@ -1,6 +1,7 @@
 # Idaho
 
-This is meant to host a somewhat spontaneous idea of building an\
-operating system from scratch. The codename for the project is Idaho.
+This is meant to host a somewhat spontaneous idea of building an operating
+system from scratch (kind of from scratch, using wiki.osdev.org as a
+resource).
 
-That fact that anyone else is reading this is a surprise to me.
+The codename for the project is Idaho.
