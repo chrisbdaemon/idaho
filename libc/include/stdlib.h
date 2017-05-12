@@ -7,6 +7,8 @@
 extern "C" {
 #endif
 
+#define NULL (void*)0x0
+
 __attribute__((__noreturn__))
 void abort(void);
 

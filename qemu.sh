@@ -2,4 +2,4 @@
 set -e
 . ./iso.sh
 
-qemu-system-x86_64 -cdrom myos.iso
+qemu-system-x86_64 -cdrom idaho.iso

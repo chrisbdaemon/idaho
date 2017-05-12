@@ -6,6 +6,9 @@ ENTRY(_start)
    kernel image. */
 SECTIONS
 {
+  /* Mark the start of the kernel code */
+  _kcode_start = .;
+
 	/* Begin putting sections at 1 MiB, a conventional place for kernels to be
 	   loaded at by the bootloader. */
 	. = 1M;
@@ -40,4 +43,7 @@ SECTIONS
 
 	/* The compiler may produce other sections, put them in the proper place in
 	   in this file, if you'd like to include them in the final kernel. */
+
+  /* Mark the end of the kernel code */
+  _kcode_end = .;
 }

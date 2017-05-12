@@ -24,6 +24,7 @@ _start:
   mov $stack_top, %esp
 
   # setup other things like paging, security restrictions, etc..
+  push %ebx
 
   # give control to kernel
   call kernel_main
